@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Momentum</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  
+</head>
+
+<body>
+  <div class="container">
+    <div class="header hidden">
+      <div class="location">
+        <div class="location-weather">
+          <img src="" alt="weather icon" class="weather-icon">
+          
+          <span class="temperature">
+            
+          </span>
+        </div>
+        <div class="location-city">
+          
+        </div>
+      </div>
+    </div>
+    
+    <div class="content">
+      <div class="clock">
+        <span class="time">
+          <span class="hour"></span>:<span class="minute"></span>
+        </span>
+        
+      </div>
+      <div class="greeting">
+        <span class="greeting-text">Hello! What is your name?</span>
+        <form action=""></form>
+      </div>
+      <input type="text" class='input'>
+      <div class="todo hidden">
+        <span class="todo-text">What is your main focus for today?</span>
+      </div>
+      <span class="todo-input hidden"></span>
+    </div>
+    
+    <div class="footer hidden">
+      <div class="quote">
+        <span class="quote-text"></span>
+      </div>
+    </div>
+  </div>
+  <script src="js/background.js"></script>
+  <script src="js/clock.js"></script>
+  <script src="js/quote.js"></script>
+  <script src="js/geolocation.js"></script>
+  <script type='module' src="js/greeting.js"></script>
+  <script type='module' src="js/todo.js"></script>
+
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+<!--   <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>  -->
+</body>
+
+</html>

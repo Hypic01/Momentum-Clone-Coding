@@ -1,0 +1,84 @@
+.content {
+  grid-row: 2/3;
+  // grid-column: 2/3;
+}
+
+
+.clock {
+  font-size: 15rem;
+  letter-spacing: -5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  .hour {
+    
+  }
+
+  .minute {
+    
+  }
+}
+
+.greeting {
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all .5s;
+  width: 50%;
+
+  &-text {
+    font-size: 4rem;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  
+}
+
+.todo {
+  position: absolute;
+  top: 72%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  text-align: center;
+  width: 60%;
+
+  &-text {
+    font-size: 3.5rem;
+  }
+
+  &-input {
+    position: absolute;
+    top: 77%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.5rem;
+  }
+}
+
+.input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid white;
+    height: 4rem;
+    font-size: 3rem;
+    width: 50rem;
+    margin-top: 2rem;
+    color: white;
+    text-align: center;
+
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    transition: all 1s;
+  }

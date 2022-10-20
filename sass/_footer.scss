@@ -1,0 +1,18 @@
+.footer {
+  grid-row: 3/-1;
+  // grid-column: 3/-1;
+
+  transition: all .5s;
+}
+
+.quote {
+  position: absolute;
+  bottom: 2rem;
+  transform: translateX(-50%);
+  left: 50%;
+  
+  &-text {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+}
